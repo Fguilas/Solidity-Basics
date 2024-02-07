@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionIntro.sol": "FunctionIntro"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionIntro.sol": {
+			"keccak256": "0xa2ba00b171f182f50c448e335e50d5f3c5b037fb1719bebb1d5ac0697c8108cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae6cd7a76509265b8e9a5c5a324698a2165641ef5f08f56c41a5098de3eacd45",
+				"dweb:/ipfs/QmeQee3e1psxyrEQ1SbSa9QEM1GDmYwh9EDXYu4W7tythy"
+			]
+		}
+	},
+	"version": 1
+}
